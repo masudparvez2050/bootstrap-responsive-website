@@ -1,0 +1,29 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.service-card {
+  transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  transition: all;
+  animation-duration: 300;
+  animation-timing-function: ease-in-out;
+}
+
+.service-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all;
+}
+
+.service-img {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+}
+
+.service-card:hover .service-img {
+  transform: scale(1.1);
+  transition: all;
+  transition-duration: 300ms;
+}
